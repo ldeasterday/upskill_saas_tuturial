@@ -29,6 +29,12 @@ h1, h2, h3{
   background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.navbar-brand
+{
+  font-family: ':Lora', sans-serif;
+  font-weight:800;
+}
 // Homepage styles
 .home-callout {
   margin:-20px;
@@ -47,4 +53,8 @@ h1, h2, h3{
     color:white;
     opacity:0.75;
   };
+}
+
+.about_header > h1{
+  color:black;
 }
